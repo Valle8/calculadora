@@ -1,4 +1,4 @@
-# calculadora
+# Calculadora
 * Requerimientos: 
 Haz un programa que replique a una calculadora de un teléfono móvil con el programa Android Studio
 * Diseño y Planos :
