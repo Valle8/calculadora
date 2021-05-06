@@ -8,6 +8,8 @@ Haz un programa que replique a una calculadora de un teléfono móvil con el pro
 * Aspecto final :
 <img width="490" height="855" src="https://github.com/Valle8/calculadora/blob/main/images/CalcUso.png"/>
 
+[Una pequeña demostración del funcionamiento de la calculadora](https://www.youtube.com/watch?v=BfHojFIrnK0)
+
 # Enlaces importantes:
 Este seria el [MainActivity](https://github.com/Valle8/calculadora/blob/main/Calculadora/app/src/main/java/com/example/calculadora/MainActivity.java).
 </br>
