@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
     int Operador;
     boolean puntoB = false;
 
-    public static final int VACIA = 0;
     public static final int RESTA = 1;
     public static final int SUMA = 2;
     public static final int DIVISION = 3;
@@ -25,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
 
     public void btnPunto(View view){
         if (puntoB==false) {
@@ -100,21 +100,34 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnDivision (View view) {
+        if (Operador!=0){
+            btnIgual(view);
+        }
         Operador = DIVISION;
         guardarValor1(view);
     }
 
     public void btnMultiplicacion (View view) {
+        if (Operador!=0){
+            btnIgual(view);
+        }
         Operador = MULTIPLICACION;
         guardarValor1(view);
+
     }
 
     public void btnSuma (View view) {
+        if (Operador!=0){
+            btnIgual(view);
+        }
         Operador = SUMA;
         guardarValor1(view);
     }
 
     public void btnResta (View view) {
+        if (Operador!=0){
+            btnIgual(view);
+        }
         Operador = RESTA;
         guardarValor1(view);
     }
@@ -132,5 +145,6 @@ public class MainActivity extends AppCompatActivity {
             res = n1/n2;
         }
         tv.setText("" + res);
+        Operador=0;
     }
 }
