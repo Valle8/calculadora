@@ -10,6 +10,21 @@ Haz un programa que replique a una calculadora de un teléfono móvil con el pro
 
 [Una pequeña demostración del funcionamiento de la calculadora](https://www.youtube.com/watch?v=BfHojFIrnK0)
 
+
+# Funcionalidades
+-Suma
+</br>
+-Resta
+</br>
+-Multiplicación
+</br>
+-División
+</br>
+-Operaciones con decimales
+</br>
+-Borrado
+</br>
+-Muestra de resultados
 # Enlaces importantes:
 Este seria el [MainActivity](https://github.com/Valle8/calculadora/blob/main/Calculadora/app/src/main/java/com/example/calculadora/MainActivity.java).
 </br>
